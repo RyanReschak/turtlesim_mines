@@ -1,0 +1,4 @@
+<launch>
+	<node name="turtle1" pkg="turtlesim" type="turtlesim_node"/>
+	<node name="mines_node" pkg="mines_reschak_ryan" type="mines_node" output="screen" />
+</launch>
